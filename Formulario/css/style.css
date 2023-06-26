@@ -1,0 +1,16 @@
+fieldset{
+    margin-bottom: 40px;
+}
+label{
+    margin-bottom: 20px;
+}
+.error{
+    margin: 20px;
+}
+.todo{
+    margin: 20px;
+}
+.arriba{
+    float: left;
+
+}
