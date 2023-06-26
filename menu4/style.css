@@ -1,0 +1,457 @@
+.container {
+    border-radius: 15px;
+    width: 65vh;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    margin: 6% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tit h1 {
+    color: #831313;
+    font-size: 50px;
+    margin-bottom: 5vh;
+}
+
+.texto {
+    border-radius: 1vh;
+    padding: 1vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.txt {
+    color: white;
+    font-size: 2.9vh;
+}
+
+.btnlogin {
+    background-color: #c31a1a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 30px;
+    font-size: 2.3vh;
+    cursor: pointer;
+}
+
+.btnlogin:hover {
+    background-color: #831313;
+    transition: 0.4s;
+}
+
+.crearC {
+    padding-right: 15vh;
+}
+
+.btnregis {
+    background-color: #c31a1a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 1.5vh 3vh;
+    font-size: 2.3vh;
+    cursor: pointer;
+    margin-left: 70%;
+}
+
+.btnregis:hover {
+    background-color: #831313;
+    transition: 0.4s;
+}
+
+.container {
+    border-radius: 15px;
+    width: 65vh;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    margin: 6% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tit h1 {
+    color: #831313;
+    font-size: 50px;
+    margin-bottom: 5vh;
+}
+
+.texto {
+    border-radius: 1vh;
+    padding: 1vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.txt {
+    color: white;
+    font-size: 2.9vh;
+}
+
+.btnlogin {
+    transition: 0.4s;
+    background-color: #c31a1a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 30px;
+    font-size: 2.3vh;
+    cursor: pointer;
+}
+
+.btnlogin:hover {
+    background-color: #831313;
+    transition: 0.4s;
+}
+
+.crearC {
+    padding-right: 15vh;
+}
+
+.btnregis {
+    transition: 0.4s;
+    background-color: #c31a1a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 1.5vh 3vh;
+    font-size: 2.3vh;
+    cursor: pointer;
+    margin-left: 70%;
+}
+
+.btnregis:hover {
+    background-color: #831313;
+    transition: 0.4s;
+}
+
+.conmen div {
+    width: 65vh;
+    height: 65vh;
+    display: inline-block;
+    margin-left: 15vh;
+}
+
+.menuc div,
+.menub div {
+    transition: .4s ease;
+}
+
+.menuc :hover,
+.menub :hover {
+    transition: .4s ease;
+    backdrop-filter: blur(5px);
+    font-size: 6vh;
+}
+
+.menuc div:hover .ijs {
+    transition: .2s ease;
+    margin-top: 28vh;
+}
+
+.menub div:hover .ijs {
+    transition: .2s ease;
+    margin-top: 28vh;
+}
+
+.im-mn img {
+    width: 65vh;
+    height: 65vh;
+}
+
+.tx-mn {
+    font-size: 4vh;
+    position: absolute;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.ijs {
+    margin-top: 30vh;
+}
+
+.tx-bebida {
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.line {
+    margin-top: 15vh;
+    height: .5vh;
+    background-color: #831313;
+    border-radius: 3vh;
+}
+
+.subtit {
+    font-size: 8vh;
+    margin-left: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.platillos {
+    margin-left: 20vh;
+}
+
+.ali {
+    position: relative;
+    border-style: solid;
+    border-color: #c31a1a;
+    display: inline-block;
+    background-color: whitesmoke;
+    transition: 0.5s ease;
+    height: 50vh;
+    width: 30vh;
+    margin-left: 3vh;
+    margin-top: 4vh;
+}
+
+
+.ali:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    height: 55vh;
+    width: 34vh;
+    margin-top: 4vh;
+    margin-left: 3vh;
+}
+
+
+
+.titpla {
+    font-size: 4vh;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+.impla img {
+    transition: .5s ease;
+    margin-top: 10%;
+    margin-left: 9%;
+    width: 25vh;
+    height: 19vh;
+}
+
+.ali:hover .impla img {
+    margin-left: 10%;
+    transition: .5s ease;
+    width: 27vh;
+    height: 21vh;
+
+}
+
+
+.infpla {
+    position: relative;
+    margin-top: 1.5vh;
+    margin-left: 6%;
+    margin-right: 1%;
+    font-size: 2.2vh;
+    height: 44vh;
+    width: 27vh;
+}
+
+.platillos .ali {
+    word-wrap: break-word;
+}
+
+.bebidas {
+    margin-left: 20vh;
+}
+
+.bebidas .beb {
+    word-wrap: break-word;
+}
+
+.beb {
+    position: relative;
+    border-style: solid;
+    border-color: #c31a1a;
+    display: inline-block;
+    background-color: whitesmoke;
+    transition: 0.5s ease;
+    height: 55vh;
+    width: 30vh;
+    margin-left: 3vh;
+    margin-top: 4vh;
+}
+
+
+.beb:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    height: 55vh;
+    width: 34vh;
+    margin-top: 4vh;
+    margin-left: 3vh;
+}
+
+
+
+.titbeb {
+    font-size: 4vh;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+.imbeb img {
+    transition: .5s ease;
+    margin-top: 10%;
+    margin-left: 9%;
+    width: 25vh;
+    height: 19vh;
+}
+
+.beb:hover .imbeb img {
+    margin-left: 10%;
+    transition: .5s ease;
+    width: 27vh;
+    height: 21vh;
+
+}
+
+.beb:hover .cantidadpedir{
+    margin-left: 8.6vh;
+}
+
+.ali:hover .cantidadpedir{
+    margin-left: 8.6vh;
+}
+
+
+.infbeb {
+    position: relative;
+    margin-top: 1.5vh;
+    margin-left: 6%;
+    margin-right: 1%;
+    font-size: 2.2vh;
+    height: 44vh;
+    width: 27vh;
+}
+
+.cantidadpedir div {
+    margin-left: .4vh;
+    display: inline-block;
+    height: 4vh;
+    width: 4vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.cantidadpedir{
+    margin-left: 6.2vh;
+    transition: .5s ease;
+}
+
+
+.btnmas,
+.btnmenos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #c31a1a;
+    color: whitesmoke;
+}
+
+.btnmas:hover,
+.btnmenos:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #831313;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btnmas,
+.btnmenos {
+    height: 4vh;
+    width: 4vh;
+    border: 0;
+}
+
+.pedir {
+    border: 0;
+    color: whitesmoke;
+    font-size: 2vh;
+    display: inline-block;
+    background-color: #c31a1a;
+    text-align: center;
+    width: 12vh;
+    height: 4vh;
+}
+
+.pedir:hover {
+    background-color: #831313;
+    cursor: pointer;
+}
+
+
+.pedir label {
+    font-size: 1.8vh;
+    background-color: #c31a1a;
+}
+
+.formm {
+    display: flex;
+}
+
+.formpedir{
+    width: 150vh;
+    height: 60vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 30vh;
+    border-radius: 2vh;
+    border-style: solid;
+}
+
+.formpedir h1{
+    margin-left: 5vh;
+}
+
+.cuenta div{
+    width: 30vh;
+    margin-right: 28vh;
+    margin-top: 15vh;
+    font-size: 4vh;
+}
+
+.infc{
+    font-size: 3vh;
+}
+
+.form-group{
+    width: 70vh;
+    margin-left: 6vh;
+}
+
+.dtcuenta p{
+    display: inline-block;
+}
+
+.formpedir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenido {
+    flex-grow: 1;
+}
+
