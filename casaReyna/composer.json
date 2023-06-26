@@ -1,0 +1,20 @@
+{
+    "name": "sinai/bienesraices_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    
+    "authors": [
+        {
+            "name": "sinaiHau",
+            "email": "114089949+sinaiHau@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
